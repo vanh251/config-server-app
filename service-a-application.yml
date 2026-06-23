@@ -3,7 +3,7 @@ spring:
     name: service-a
 app:
   title: service-a
-  username: hunghx
+  username: vanh
   pass: 123456$
 server:
   port: 8082
