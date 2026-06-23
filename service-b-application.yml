@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-b
+app:
+  title: service-b
+  username: user
+  pass: 123456
+server:
+  port: 8083
