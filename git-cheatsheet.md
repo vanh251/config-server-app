@@ -1,0 +1,23 @@
+- **Khởi tạo repo**: `git init` — tạo repository Git mới trong thư mục hiện tại.
+- **Clone repo**: `git clone <url>` — sao chép repository từ remote.
+- **Kiểm tra trạng thái**: `git status` — xem file đã thay đổi, staged, unstaged.
+- **Thêm file vào staging**: `git add <file>` hoặc `git add .` — đánh dấu thay đổi để commit.
+- **Commit thay đổi**: `git commit -m "message"` — lưu snapshot với thông điệp.
+- **Xem diff**: `git diff` — so sánh thay đổi chưa staged; `git diff --staged` cho staged.
+- **Xem lịch sử**: `git log` — liệt kê commit; `git log --oneline --graph --all` cho tóm tắt.
+- **Branch**: `git branch` — liệt kê branch; `git branch <name>` tạo branch mới.
+- **Chuyển branch**: `git checkout <branch>` hoặc `git switch <branch>` — chuyển nhánh.
+- **Tạo & chuyển branch**: `git checkout -b <branch>` hoặc `git switch -c <branch>`.
+- **Merge**: `git.merge <branch>` — nhập thay đổi từ branch khác vào branch hiện tại.
+- **Rebase**: `git rebase <branch>` — áp lại commit trên base mới (cẩn thận khi public).
+- **Remote**: `git remote -v` — xem remote; `git remote add origin <url>` — thêm remote.
+- **Push**: `git push <remote> <branch>` — đẩy commit lên remote.
+- **Pull (fetch + merge)**: `git pull <remote> <branch>` — lấy và gộp thay đổi từ remote.
+- **Fetch (chỉ tải về)**: `git fetch <remote>` — tải refs nhưng không merge.
+- **Stash**: `git stash` — lưu tạm thay đổi chưa commit; `git stash pop` lấy lại.
+- **Tag**: `git tag <name>` — đánh dấu commit; `git push --tags` đẩy tag lên remote.
+- **Xóa file**: `git rm <file>` — xóa file và stage thay đổi.
+- **Reset**: `git reset --soft <commit>` hoặc `--hard` — di chuyển HEAD (cẩn thận với --hard).
+- **Revert**: `git revert <commit>` — tạo commit ngược lại để hoàn tác an toàn.
+- **Cấu hình user**: `git config --global user.name "Name"` và `git config --global user.email "email@example.com"`.
+- **Khôi phục file**: `git restore <file>` — hủy thay đổi unstaged; `git restore --staged <file>` bỏ khỏi staging.
